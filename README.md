@@ -15,9 +15,9 @@ Sticking to the design principles of the TensorFlow Model Garden, all the module
  - Instance Segmentation: We decided to go with the `MaskRCNN` model since it was already available in the TensorFlow Model Garden and is one of the most popular architectures for instance segmentation task.
  - Semantic Segmentation: We decided to add an addition head to the `MaskRCNN` which would function as a semantic segmentation module.
  - Sharing common modules: Both tasks need common modules like the backbone and decoder. We added support for sharing the common modules to reduce the parameter count.
- 
+
 #### Implementation
-For implementation, I used `tf-vision`, since it has all the necessary building blocks for computer vision tasks/models. Along with clear documentation on usage and the modular design principles, extending `MaskRCNN` architecture to include an additional semantic segmentation task was uneventful. We named this architecture `Panoptic MaskRCNN`.
+For implementation, we decided to use `tf-vision`, since it has all the necessary building blocks for computer vision tasks/models since it clear documentation on usage and also has modular design principles. This made extending `MaskRCNN` architecture to include an additional semantic segmentation task uneventful.
 We used the TensorFlow 2.x high-level API (Keras) for building creating additional layers (eg: `PanopticSegmentationGenerator`) and for building the final model. We also made sure the model supports distributed training on multiple GPUs and on TPU Pods.
 
 ## Tasks

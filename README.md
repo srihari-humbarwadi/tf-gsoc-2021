@@ -18,7 +18,7 @@ Sticking to the design principles of the TensorFlow Model Garden, all the module
 
 #### Implementation
 For implementation, we decided to use `tf-vision`, since it has all the necessary building blocks for computer vision tasks/models since it clear documentation on usage and also has modular design principles. This made extending `MaskRCNN` architecture to include an additional semantic segmentation task uneventful.
-We used the TensorFlow 2.x high-level API (Keras) for building creating additional layers (eg: `PanopticSegmentationGenerator`) and for building the final model. We also made sure the model supports distributed training on multiple GPUs and on TPU Pods. For unittests, we used `tf.test` module available in the `TensorFlow` framework
+We used the TensorFlow 2.x high-level API (Keras) for building creating additional layers (eg: `PanopticSegmentationGenerator`) and for building the final model. We also made sure the model supports distributed training on multiple GPUs and on TPU Pods. For unittests, we used `tf.test` module available in the `TensorFlow` framework.
 
 ## Tasks
 - [x] Add required configs, especially data configs.

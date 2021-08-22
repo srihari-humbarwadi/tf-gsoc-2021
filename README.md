@@ -1,4 +1,9 @@
 # Google Summer of Code - TensorFlow
+<p float="left">
+
+<img src="https://summerofcode.withgoogle.com/static/img/summer-of-code-logo.svg" alt="alt text" width="100">
+<img src="https://www.gstatic.com/devrel-devsite/prod/vf0396724755d04dbab75050e6812ced8fb2ab11d424163deba5826536b4b1964/tensorflow/images/lockup.svg" alt="alt text" height="100">
+<p/>
 
 ## Overview
 For my GSoC project, I worked with the TensorFlow Model Garden team as a student developer. I was tasked to design and implement a Panoptic Segmentation model for the TensorFlow Model Garden.

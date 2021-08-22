@@ -32,7 +32,7 @@ We used the TensorFlow 2.x high level API (Keras) for building creating addition
 
 
 ## Contibutions
-Project Page: [Panoptic MaskRCNN](https://github.com/tensorflow/models/tree/master/official/vision/beta/projects/panoptic_maskrcnn)
+Model Garden Link: [Panoptic MaskRCNN](https://github.com/tensorflow/models/tree/master/official/vision/beta/projects/panoptic_maskrcnn)
 | Description 	| PR Link                                            	| Status            	|
 |-------------	|-------------------------------------------------	|-------------------	|
 | added panoptic model that extends `MaskRCNN`     	| https://github.com/tensorflow/models/pull/10045 	| merged            	|
